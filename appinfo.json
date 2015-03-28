@@ -1,0 +1,244 @@
+{
+    "appKeys": {
+        "bluetoothvibe": 3,
+        "city": 5,
+        "hourlyvibe": 4,
+        "icon": 0,
+        "invert_color": 2,
+        "temperature": 1
+    },
+    "capabilities": [
+        "location",
+        "configurable"
+    ],
+    "companyName": "hhundsch",
+    "longName": "widget face",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/wam.png",
+                "name": "IMAGE_AM_MODE",
+                "type": "png"
+            },
+            {
+                "file": "images/wpm.png",
+                "name": "IMAGE_PM_MODE",
+                "type": "png"
+            },
+            {
+                "file": "images/fogb.png",
+                "name": "FOG",
+                "type": "png"
+            },
+            {
+                "file": "images/27b.png",
+                "name": "STORM",
+                "type": "png"
+            },
+            {
+                "file": "images/HAIL.png",
+                "name": "HAIL",
+                "type": "png"
+            },
+            {
+                "file": "images/ZE.png",
+                "name": "HAZE",
+                "type": "png"
+            },
+            {
+                "file": "images/23b.png",
+                "name": "SNOW",
+                "type": "png"
+            },
+            {
+                "file": "images/45-4white.png",
+                "name": "NA",
+                "type": "png"
+            },
+            {
+                "file": "images/PC-NIGHT.png",
+                "name": "PARTLY_CLOUDY_NIGHT",
+                "type": "png"
+            },
+            {
+                "file": "images/PC2.png",
+                "name": "PARTLY_CLOUDY_DAY",
+                "type": "png"
+            },
+            {
+                "file": "images/ICEBLOCKS.png",
+                "name": "COLD",
+                "type": "png"
+            },
+            {
+                "file": "images/WINDY.png",
+                "name": "WINDY",
+                "type": "png"
+            },
+            {
+                "file": "images/cloud-b.png",
+                "name": "CLOUD",
+                "type": "png"
+            },
+            {
+                "file": "images/widget25b.png",
+                "name": "CLOUDY",
+                "type": "png"
+            },
+            {
+                "file": "images/18b.png",
+                "name": "RAIN",
+                "type": "png"
+            },
+            {
+                "file": "images/wsymbol_0008_clear_sky_night3.png",
+                "name": "CLEAR_NIGHT",
+                "type": "png"
+            },
+            {
+                "file": "images/download-sun-convbw.png",
+                "name": "CLEAR_DAY",
+                "type": "png"
+            },
+            {
+                "file": "images/bt_not-connected_90.png",
+                "name": "IMAGE_BLUETOOTHOFF",
+                "type": "png"
+            },
+            {
+                "file": "images/bt_connected_90.png",
+                "name": "IMAGE_BLUETOOTHON",
+                "type": "png"
+            },
+            {
+                "file": "images/90CHARGINGwhite.png",
+                "name": "IMAGE_BATT_CHARGING",
+                "type": "png"
+            },
+            {
+                "file": "images/90batt50white.png",
+                "name": "IMAGE_BATT_040_050",
+                "type": "png"
+            },
+            {
+                "file": "images/90batt60white.png",
+                "name": "IMAGE_BATT_050_060",
+                "type": "png"
+            },
+            {
+                "file": "images/90batt70white.png",
+                "name": "IMAGE_BATT_060_070",
+                "type": "png"
+            },
+            {
+                "file": "images/90batt80white.png",
+                "name": "IMAGE_BATT_070_080",
+                "type": "png"
+            },
+            {
+                "file": "images/90batt90white.png",
+                "name": "IMAGE_BATT_080_090",
+                "type": "png"
+            },
+            {
+                "file": "fonts/steelfish rg.ttf",
+                "name": "FONT_STEELFISH_29",
+                "trackingAdjust": 1,
+                "type": "font"
+            },
+            {
+                "file": "images/90batt40a.png",
+                "name": "IMAGE_BATT_030_040",
+                "type": "png"
+            },
+            {
+                "file": "images/90batt30white.png",
+                "name": "IMAGE_BATT_020_030",
+                "type": "png"
+            },
+            {
+                "file": "images/90batt20white.png",
+                "name": "IMAGE_BATT_010_020",
+                "type": "png"
+            },
+            {
+                "file": "images/90batt1white.png",
+                "name": "IMAGE_BATT_000_010",
+                "type": "png"
+            },
+            {
+                "file": "images/90batt10white.png",
+                "name": "IMAGE_BATT_090_100",
+                "type": "png"
+            },
+            {
+                "file": "images/num_9.png",
+                "name": "IMAGE_NUM_9",
+                "type": "png"
+            },
+            {
+                "file": "images/num_8.png",
+                "name": "IMAGE_NUM_8",
+                "type": "png"
+            },
+            {
+                "file": "images/num_7.png",
+                "name": "IMAGE_NUM_7",
+                "type": "png"
+            },
+            {
+                "file": "images/num_6.png",
+                "name": "IMAGE_NUM_6",
+                "type": "png"
+            },
+            {
+                "file": "images/num_5.png",
+                "name": "IMAGE_NUM_5",
+                "type": "png"
+            },
+            {
+                "file": "images/num_4.png",
+                "name": "IMAGE_NUM_4",
+                "type": "png"
+            },
+            {
+                "file": "images/num_3.png",
+                "name": "IMAGE_NUM_3",
+                "type": "png"
+            },
+            {
+                "file": "images/num_2.png",
+                "name": "IMAGE_NUM_2",
+                "type": "png"
+            },
+            {
+                "file": "images/num_1.png",
+                "name": "IMAGE_NUM_1",
+                "type": "png"
+            },
+            {
+                "file": "images/num_0.png",
+                "name": "IMAGE_NUM_0",
+                "type": "png"
+            },
+            {
+                "file": "images/background.png",
+                "name": "IMAGE_BACKGROUND",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "widget face",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "4c7c723b-0d09-4fe2-b5d8-f753e7bc465e",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
