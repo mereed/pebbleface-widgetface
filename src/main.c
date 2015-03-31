@@ -327,7 +327,7 @@ void window_load(Window *window){
   Layer *weather_holder = layer_create(GRect(0, 0, 144, 168 ));
   layer_add_child(window_layer, weather_holder);
 
-  icon_layer = bitmap_layer_create(GRect(42, 81, 58, 50));
+  icon_layer = bitmap_layer_create(GRect(7, 81, 128, 68)); // 42,81,58,50
   layer_add_child(weather_holder, bitmap_layer_get_layer(icon_layer));
 
   steelfish = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_STEELFISH_29));
@@ -340,7 +340,7 @@ void window_load(Window *window){
   text_layer_set_text_alignment(temp_layer, GTextAlignmentRight);
   layer_add_child(weather_holder, text_layer_get_layer(temp_layer));
 	
-  city_layer = text_layer_create(GRect(9, 129, 91, 24));
+  city_layer = text_layer_create(GRect(9, 129, 90, 24));
   text_layer_set_text_color(city_layer, GColorBlack);
   text_layer_set_background_color(city_layer, GColorClear);
   text_layer_set_font(city_layer, fonts_get_system_font(FONT_KEY_GOTHIC_18));
@@ -348,7 +348,7 @@ void window_load(Window *window){
   text_layer_set_text_alignment(city_layer, GTextAlignmentLeft);
   layer_add_child(window_layer, text_layer_get_layer(city_layer));
 	
-  layer_date_text = text_layer_create(GRect(9, 78, 50, 120));
+  layer_date_text = text_layer_create(GRect(9, 78, 45, 120));
   text_layer_set_text_color(layer_date_text, GColorBlack);
   text_layer_set_background_color(layer_date_text, GColorClear);
   text_layer_set_font(layer_date_text, fonts_get_system_font(FONT_KEY_GOTHIC_18_BOLD));
