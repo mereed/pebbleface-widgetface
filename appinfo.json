@@ -11,11 +11,26 @@
         "location",
         "configurable"
     ],
-    "companyName": "hhundsch",
+    "companyName": "mreed",
     "longName": "widget face",
     "projectType": "native",
     "resources": {
         "media": [
+            {
+                "file": "images/haze_bw.png",
+                "name": "HAZE",
+                "type": "png"
+            },
+            {
+                "file": "images/clear_night.png",
+                "name": "CLEAR_NIGHT",
+                "type": "png"
+            },
+            {
+                "file": "images/clear-day.png",
+                "name": "CLEAR_DAY",
+                "type": "png"
+            },
             {
                 "file": "images/wam.png",
                 "name": "IMAGE_AM_MODE",
@@ -39,11 +54,6 @@
             {
                 "file": "images/HAIL.png",
                 "name": "HAIL",
-                "type": "png"
-            },
-            {
-                "file": "images/ZE.png",
-                "name": "HAZE",
                 "type": "png"
             },
             {
@@ -89,16 +99,6 @@
             {
                 "file": "images/18b.png",
                 "name": "RAIN",
-                "type": "png"
-            },
-            {
-                "file": "images/wsymbol_0008_clear_sky_night3.png",
-                "name": "CLEAR_NIGHT",
-                "type": "png"
-            },
-            {
-                "file": "images/download-sun-convbw.png",
-                "name": "CLEAR_DAY",
                 "type": "png"
             },
             {
