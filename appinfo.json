@@ -2,7 +2,6 @@
     "appKeys": {
         "bluetoothvibe": 3,
         "city": 5,
-        "hourlyvibe": 4,
         "icon": 0,
         "invert_color": 2,
         "temperature": 1
@@ -16,6 +15,16 @@
     "projectType": "native",
     "resources": {
         "media": [
+            {
+                "file": "images/cold-bw.png",
+                "name": "COLD",
+                "type": "png"
+            },
+            {
+                "file": "images/partlycloudynight-bw1.png",
+                "name": "PARTLY_CLOUDY_NIGHT",
+                "type": "png"
+            },
             {
                 "file": "images/partlycloudy-bw.png",
                 "name": "PARTLY_CLOUDY_DAY",
@@ -74,16 +83,6 @@
             {
                 "file": "images/45-4white.png",
                 "name": "NA",
-                "type": "png"
-            },
-            {
-                "file": "images/PC-NIGHT.png",
-                "name": "PARTLY_CLOUDY_NIGHT",
-                "type": "png"
-            },
-            {
-                "file": "images/ICEBLOCKS.png",
-                "name": "COLD",
                 "type": "png"
             },
             {
@@ -230,10 +229,9 @@
         ]
     },
     "sdkVersion": "3",
-    "shortName": "widget face",
+    "shortName": "widget",
     "targetPlatforms": [
-        "aplite",
-        "basalt"
+        "aplite"
     ],
     "uuid": "4c7c723b-0d09-4fe2-b5d8-f753e7bc465e",
     "versionCode": 1,

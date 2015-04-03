@@ -3,10 +3,8 @@
 #include <pebble.h>  
 
 
-
 typedef struct {
-	Layer       *layer;
-  
+  Layer       *layer;
   BitmapLayer *static_bitmap_layer;
   BitmapLayer *anim_bitmap_layer;
 

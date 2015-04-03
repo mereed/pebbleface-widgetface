@@ -18,8 +18,6 @@ int NUM_NUM[] = {RESOURCE_ID_IMAGE_NUM_0, RESOURCE_ID_IMAGE_NUM_1, RESOURCE_ID_I
                  RESOURCE_ID_IMAGE_NUM_5, RESOURCE_ID_IMAGE_NUM_6, RESOURCE_ID_IMAGE_NUM_7, RESOURCE_ID_IMAGE_NUM_8, RESOURCE_ID_IMAGE_NUM_9};
 
 
-
-
 // animation stop callback 
 void on_animation_stopped(Animation *anim, bool finished, SlideLayer *slide_layer)
 {

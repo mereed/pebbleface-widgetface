@@ -168,16 +168,9 @@ function getWeatherFromWoeid(woeid) {
             "icon": icon,
             "city": condition.text,
 
-
-
             "invert_color" : (options["invert_color"] == "true" ? 1 : 0),
 			"bluetoothvibe" : (options["bluetoothvibe"] == "true" ? 1 : 0),
             "hourlyvibe" : (options["hourlyvibe"] == "true" ? 1 : 0),
-			"hidebt" : (options["hidebt"] == "true" ? 1 : 0),
-			"hidebatt" : (options["hidebatt"] == "true" ? 1 : 0),
-			"hidedate" : (options["hidedate"] == "true" ? 1 : 0),
-			"hidedegree" : (options["hidedegree"] == "true" ? 1 : 0),
-			"blink" : (options["blink"] == "true" ? 1 : 0),
           });
         }
       } else {
@@ -221,12 +214,8 @@ Pebble.addEventListener('showConfiguration', function(e) {
     '&units=' + encodeURIComponent(options['units']) +
     '&invert_color=' + encodeURIComponent(options['invert_color']) +
     '&bluetoothvibe=' + encodeURIComponent(options['bluetoothvibe']) +
-	'&hourlyvibe=' + encodeURIComponent(options['hourlyvibe']) +
-	'&hidebt=' + encodeURIComponent(options['hidebt']) +
-	'&hidebatt=' + encodeURIComponent(options['hidebatt']) +
-	'&hidedate=' + encodeURIComponent(options['hidedate']) +
-	'&hidedegree=' + encodeURIComponent(options['hidedegree']) +
-	'&blink=' + encodeURIComponent(options['blink']);
+	'&hourlyvibe=' + encodeURIComponent(options['hourlyvibe']);
+
 
   //console.log('showing configuration at uri: ' + uri);
 
